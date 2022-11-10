@@ -41,7 +41,7 @@ public class Animal {
 	/* elephant */
 	/*
 	 * /* ferret */
- 	*/
+// 	*/
 	// compiler sees /* */ */
 
 }
