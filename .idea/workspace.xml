@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca25f877-cb51-4a59-a234-cb874901d65d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter1-buildingblocks/src/Identifiers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter1-buildingblocks/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1-buildingblocks/src/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter2-operators/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2-operators/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter2-operators/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2-operators/src/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -28,6 +30,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectId" id="2E6uPTMaDLc2GU27lnOjlXDsl3i" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -43,8 +48,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/Users/nicusor.turcu@mambu.com/playground/JavaOcp17/chapter1/src",
+    "jdk.selected.JAVA_MODULE": "temurin-17",
+    "last_opened_file_path": "/Users/nicusor.turcu@mambu.com/playground/JavaOcp17/chapter2-operators/src",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -54,13 +59,21 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chapter2-operators/src" />
       <recent name="$PROJECT_DIR$/chapter1/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Identifiers">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Identifiers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Identifiers" />
       <module name="JavaOcp17" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="chapter2-operators" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,6 +100,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Identifiers" />
         <item itemvalue="Application.NumberPicker (1)" />
         <item itemvalue="Application.NumberPicker" />
@@ -106,6 +120,8 @@
       <workItem from="1662367016569" duration="964000" />
       <workItem from="1662376761050" duration="1835000" />
       <workItem from="1668082044777" duration="6336000" />
+      <workItem from="1668092447952" duration="67000" />
+      <workItem from="1674123816953" duration="9785000" />
     </task>
     <task id="LOCAL-00001" summary="31 August, chapter 1.">
       <created>1661930458786</created>
@@ -135,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668085049825</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="10 Nov, chapter 1 - questions">
+      <created>1668092495199</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668092495200</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +186,7 @@
     <MESSAGE value="1 September, chapter 1 - Ordering Elements in a Class" />
     <MESSAGE value="5 September, chapter 1 - Reserved words" />
     <MESSAGE value="10 Nov, chapter 1 - Initializing Variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="10 Nov, chapter 1 - Initializing Variables" />
+    <MESSAGE value="10 Nov, chapter 1 - questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="10 Nov, chapter 1 - questions" />
   </component>
 </project>

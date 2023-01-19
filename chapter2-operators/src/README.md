@@ -1,84 +1,74 @@
-# Building blocks
+# Operators
 
-## Wrong imports examples
-
-1. 
-```
-import java.nio.*;            // NO GOOD - a wildcard only matches class names, not "file.Files"
-```
-2.
-```
-import java.nio.*.*;          // NO GOOD - you can only have one wildcard and it must be at the end
-```
-
-3.
-```
-import java.nio.file.Paths.*; // NO GOOD - you cannot import methods only class names
-```
-
-## Packages
-
-1. Compiling together:
-```
-javac packagea/ClassA.java packageb/ClassB.java
-```
-
-2. Compiling together with wildcards:
-```
-javac packagea/*.java packageb/*.java
-```
-
-3. Compiling to other directory:
-```
-javac -d classes packagea/ClassA.java packageb/ClassB.java
-```
-4. Run program with other directory:
-```
-java -cp classes packageb.ClassB
-java -classpath classes packageb.ClassB
-java --class-path classes packageb.ClassB
-```
-
-## Create Jar files
-
-```
-jar -cvf myNewFile.jar .
-jar --create --verbose --file myNewFile.jar .
-jar -cvf myNewFile.jar -C dir .
-```
-
-## Ordering elements in a class
-
+## Operator precendence
 ![img.png](img.png)
-
-## Reserved words
-
 ![img_1.png](img_1.png)
 
-## Local Variable Type Inference (var)
+### Bitwise of a number
+- to find the bitwise complement of a number, multiply it by negative one and then subtract one.
+```
+System.out.println(-1*value - 1);      // -4
+System.out.println(-1*complement - 1); // 3
+```
 
-https://openjdk.org/projects/amber/guides/lvti-style-guide
+### Numeric Promotion Rules
 
-## Scope
-
-- Local variables: In scope from declaration to the end of the block
-- Method parameters: In scope for the duration of the method
-- Instance variables: In scope from declaration until the object is eligible for garbage collection
-- Class variables: In scope from declaration until the program ends
+- If two values have different data types, Java will automatically promote one of the values to the larger of the two data types.
+- If one of the values is integral and the other is floating-point, Java will automatically promote the integral value to the floating-point value's data type.
+- Smaller data types, namely, byte, short, and char, are first promoted to int any time they're used with a Java binary arithmetic operator with a variable (as opposed to a value), even if neither of the operands is int.
+- After all promotion has occurred and the operands have the same data type, the resulting value will have the same data type as its promoted operands.
 
 
-## Summary
+### Equality operator
 
-Java begins program execution with a main() method. The most common signature for this method run from the command line is public static void main(String[] args). Arguments are passed in after the class name, as in java NameOfClass firstArgument. Arguments are indexed starting with 0.
+![img_2.png](img_2.png)
 
-Java code is organized into folders called packages. To reference classes in other packages, you use an import statement. A wildcard ending an import statement means you want to import all classes in that package. It does not include packages that are inside that one. The package java.lang is special in that it does not need to be imported.
+### Relational operators
 
-For some class elements, order matters within the file. The package statement comes first if present. Then come the import statements if present. Then comes the class declaration. Fields and methods are allowed to be in any order within the class.
+![img_3.png](img_3.png)
 
-Primitive types are the basic building blocks of Java types. They are assembled into reference types. Reference types can have methods and be assigned a null value. Numeric literals are allowed to contain underscores (_) as long as they do not start or end the literal and are not next to a decimal point (.). Wrapper classes are reference types, and there is one for each primitive. Text blocks allow creating a String on multiple lines using """.
+### Instance of
 
-Declaring a variable involves stating the data type and giving the variable a name. Variables that represent fields in a class are automatically initialized to their corresponding 0, null, or false values during object instantiation. Local variables must be specifically initialized before they can be used. Identifiers may contain letters, numbers, currency symbols, or _. Identifiers may not begin with numbers. Local variable declarations may use the var keyword instead of the actual type. When using var, the type is set once at compile time and does not change.
+- It is useful for determining whether an arbitrary object is a member of a particular class or interface at runtime.
 
-Scope refers to that portion of code where a variable can be accessed. There are three kinds of variables in Java, depending on their scope: instance variables, class variables, and local variables. Instance variables are the non-static fields of your class. Class variables are the static fields within a class. Local variables are declared within a constructor, method, or initializer block.
+![img_5.png](img_5.png)
 
-Constructors create Java objects. A constructor is a method matching the class name and omitting the return type. When an object is instantiated, fields and blocks of code are initialized first. Then the constructor is run. Finally, garbage collection is responsible for removing objects from memory when they can never be used again. An object becomes eligible for garbage collection when there are no more references to it or its references have all gone out of scope.
+
+### Logical operators
+
+![img_4.png](img_4.png)
+
+![img_6.png](img_6.png)
+
+### Conditional operators
+
+![img_7.png](img_7.png)
+
+### Conditional operator ? : (known as Ternary operator)
+
+## Review questions
+
+Question | My Answer                                             | Correct Answer
+---------|-------------------------------------------------------|---------------
+1        | A, D, F, G                                            |                
+2        | A, B, D                                               |                
+3        | B, C, D, F                                            |                
+4        | A                                                     |                
+5        | A, C, D, F?, G                                        |                
+6        | F                                                     |                
+7        | D. true-false-false                                   |                
+8        | A                                                     |                
+9        | D, B                                                  |                
+10       | height =1, weight=3, zebra=3, ox=6, giraffe=2-> B,C,F |                
+11       | D                                                     |                
+12       | D                                                     |                
+13       | true - true - false - F                               |                
+14       | B, E, G                                               |                
+15       | D                                                     |                
+16       | C                                                     |                
+17       | F, C                                                  |                
+18       | B                                                     |                
+19       | start = -128, end = 12 -> B, F                        |                
+20       | A, D                                                  |                
+21       | bird = -7, plane = -8, superman=10 -> B               |                
+            
