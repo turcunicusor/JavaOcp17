@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca25f877-cb51-4a59-a234-cb874901d65d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter3-makingdecisions/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter3-makingdecisions/src/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter3-makingdecisions/src/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter3-makingdecisions/src/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter3-makingdecisions/src/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter3-makingdecisions/src/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter3-makingdecisions/src/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter3-makingdecisions/src/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter3-makingdecisions/src/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter3-makingdecisions/src/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter3-makingdecisions/src/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templatechapter/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templatechapter/src/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter3-makingdecisions/src/img_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter3-makingdecisions/src/img_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter3-makingdecisions/src/img_9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter2-operators/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2-operators/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter2-operators/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2-operators/src/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter3-makingdecisions/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3-makingdecisions/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter3-makingdecisions/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3-makingdecisions/src/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,22 +47,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TF_FMT": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "temurin-17",
-    "last_opened_file_path": "/Users/nicusor.turcu@mambu.com/playground/JavaOcp17/templatechapter/src",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.36666667",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TF_FMT&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/nicusor.turcu@mambu.com/playground/JavaOcp17/templatechapter/src&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.36666667&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templatechapter/src" />
@@ -144,7 +138,12 @@
       <workItem from="1668082044777" duration="6336000" />
       <workItem from="1668092447952" duration="67000" />
       <workItem from="1674123816953" duration="10351000" />
-      <workItem from="1674224112551" duration="4926000" />
+      <workItem from="1674224112551" duration="5496000" />
+      <workItem from="1675176735593" duration="5345000" />
+      <workItem from="1676997379344" duration="2333000" />
+      <workItem from="1677596649643" duration="2421000" />
+      <workItem from="1677851845138" duration="217000" />
+      <workItem from="1679473452140" duration="86000" />
     </task>
     <task id="LOCAL-00001" summary="31 August, chapter 1.">
       <created>1661930458786</created>
@@ -188,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674142393180</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Started chapter 3, stoped at for loops.">
+      <created>1674230300426</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674230300426</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +224,7 @@
     <MESSAGE value="10 Nov, chapter 1 - Initializing Variables" />
     <MESSAGE value="10 Nov, chapter 1 - questions" />
     <MESSAGE value="adde changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="adde changes" />
+    <MESSAGE value="Started chapter 3, stoped at for loops." />
+    <option name="LAST_COMMIT_MESSAGE" value="Started chapter 3, stoped at for loops." />
   </component>
 </project>

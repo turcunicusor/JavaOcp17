@@ -2,58 +2,25 @@ import java.time.Month;
 
 public class Main {
 	public static void main(String[] args) {
-		System.out.println("Hello world!");
-
-		Number nr = 7;
-		compareIntegers(nr);
-		printIntegersGreaterThan5(nr);
-
-		switchexpression(Month.FEBRUARY);
-		secondSwitchExpression(Month.MAY);
+		var tailFeathers= 7;
+		switch (tailFeathers) {
+			default: System.out.print("default" + " ");
+			case 1: System.out.print(3 + " ");
+			case 3: System.out.print(5 + " ");
+		 }
 	}
 
-	private static void switchexpression(Month month) {
-		var result = switch (month) {
-			case JANUARY: {
-				yield "Winter";
-			}
-			default: {
-				yield "have to learn";
-			}
-		};
-		System.out.println(result);
+
+	private static void thee() {
+		int temperature = 4;
+		long humidity = -temperature + temperature * 3;
+		if (temperature>=4)
+			if (humidity < 6) System.out.println("Too Low");
+		else System.out.println("Just Right");
+		else System.out.println("Too High");
+
+
 	}
 
-	private static void secondSwitchExpression(Month month) {
-		switch(month) {
-			case MAY -> System.out.println("may");
-		}
-	}
-
-	private static void thirdSwitchExpression() {
-		int fish = 5;
-		int length = 12;
-		var name = switch(fish) {
-			case 1 -> "Goldfish";
-			case 2 -> {yield "Trout";}
-			case 3 -> {
-				if(length > 10) yield "Blobfish";
-				else yield "Green";
-			}
-			default -> "Swordfish";
-		};
-	}
-
-	public static void compareIntegers(Number number) {
-		if (number instanceof Integer) {
-			Integer data = (Integer) number;
-			System.out.println(data.compareTo(5));
-		}
-	}
-
-	public static void printIntegersGreaterThan5(Number number) {
-		if (number instanceof Integer data && data.compareTo(5) > 0)
-			System.out.println(data);
-	}
 
 }

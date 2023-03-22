@@ -50,15 +50,15 @@ System.out.println(-1*complement - 1); // 3
 
 Question | My Answer                                             | Correct Answer
 ---------|-------------------------------------------------------|---------------
-1        | A, D, F, G                                            |                
+1        | A, D, F, G                                            |  A, D, G               
 2        | A, B, D                                               |                
 3        | B, C, D, F                                            |                
-4        | A                                                     |                
-5        | A, C, D, F?, G                                        |                
+4        | A                                                     |    B            
+5        | A, C, D, F?, G                                        |   A, C             
 6        | F                                                     |                
 7        | D. true-false-false                                   |                
 8        | A                                                     |                
-9        | D, B                                                  |                
+9        | D, B                                                  | D, E, A            
 10       | height =1, weight=3, zebra=3, ox=6, giraffe=2-> B,C,F |                
 11       | D                                                     |                
 12       | D                                                     |                
@@ -67,8 +67,8 @@ Question | My Answer                                             | Correct Answe
 15       | D                                                     |                
 16       | C                                                     |                
 17       | F, C                                                  |                
-18       | B                                                     |                
+18       | C                                                     |                
 19       | start = -128, end = 12 -> B, F                        |                
-20       | A, D                                                  |                
-21       | bird = -7, plane = -8, superman=10 -> B               |                
+20       | A, D, E                                               |                
+21       | bird = -7, plane = -8, superman=10 -> B               | E               
             

@@ -31,6 +31,27 @@
 
 ![img_8.png](img_8.png)
 
+## For each loop
+
+![img_9.png](img_9.png)
+
+## Optional labels
+
+![img_10.png](img_10.png)
+
+## Statements
+
+### Break
+### Continue
+### return
+### Unreachable code
+
+### Control statement ussage
+
+![img_11.png](img_11.png)
+
+Some of the most time-consuming questions you may see on the exam could involve nested loops with lots of branching. Unless you spot an obvious compiler error, we recommend skipping these questions and coming back to them at the end. Remember, all questions on the exam are weighted evenly!
+
 ## Review questions
 
 Question | My Answer | Correct Answer
