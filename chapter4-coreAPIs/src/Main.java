@@ -1,3 +1,4 @@
+import java.time.temporal.ChronoUnit;
 import java.util.Arrays;
 import java.time.*;
 
@@ -54,9 +55,106 @@ public class Main {
 		var everyOtherDay = Period.ofDays(2);        // every 2 days
 		var everyYearAndAWeek = Period.of(1, 0, 7);  // every year and 7 days
 
-		System.out.println(Period.of(1,2,3));
+		System.out.println(Period.of(1, 2, 3));
 
 		System.out.println(Period.ofMonths(3));
+
+		var daily = Duration.ofDays(1);               // PT24H
+		var hourly = Duration.ofHours(1);             // PT1H
+		var everyMinute = Duration.ofMinutes(1);      // PT1M
+		var everyTenSeconds = Duration.ofSeconds(10); // PT10S
+		var everyMilli = Duration.ofMillis(1);        // PT0.001S
+		var everyNano = Duration.ofNanos(1);          // PT0.000000001S
+
+		durationWithCrono();
+
+		var one = LocalTime.of(5, 15);
+		var two = LocalTime.of(6, 30);
+		var date3 = LocalDate.of(2016, 1, 20);
+		System.out.println(ChronoUnit.HOURS.between(one, two));     // 1
+		System.out.println(ChronoUnit.MINUTES.between(one, two));   // 75
+		//		System.out.println(ChronoUnit.MINUTES.between(one, date3));  // DateTimeException
+
+		LocalTime time4 = LocalTime.of(3, 12, 45);
+		System.out.println(time4);      // 03:12:45
+		LocalTime truncated = time4.truncatedTo(ChronoUnit.MINUTES);
+		System.out.println(truncated); // 03:12
+
+		periodVsDuration();
+
+		instants();
+
+		daylightSavingTime();
+	}
+
+	private static void daylightSavingTime() {
+		march();
+
+		november();
+	}
+
+	private static void march() {
+		var date = LocalDate.of(2022, Month.MARCH, 13);
+		var time = LocalTime.of(1, 30);
+		var zone = ZoneId.of("US/Eastern");
+		var dateTime = ZonedDateTime.of(date, time, zone);
+		System.out.println(dateTime);  // 2022–03-13T01:30-05:00[US/Eastern]
+		System.out.println(dateTime.getHour()); // 1
+		System.out.println(dateTime.getOffset()); // -05:00
+
+		dateTime = dateTime.plusHours(1);
+		System.out.println(dateTime);  // 2022–03-13T03:30-04:00[US/Eastern]
+		System.out.println(dateTime.getHour()); // 3
+		System.out.println(dateTime.getOffset()); // -04:00
+	}
+
+	private static void november() {
+		var date = LocalDate.of(2022, Month.NOVEMBER, 6);
+		var time = LocalTime.of(1, 30);
+		var zone = ZoneId.of("US/Eastern");
+		var dateTime = ZonedDateTime.of(date, time, zone);
+		System.out.println(dateTime); // 2022-11-06T01:30-04:00[US/Eastern]
+
+		dateTime = dateTime.plusHours(1);
+		System.out.println(dateTime); // 2022-11-06T01:30-05:00[US/Eastern]
+
+		dateTime = dateTime.plusHours(1);
+		System.out.println(dateTime); // 2022-11-06T02:30-05:00[US/Eastern]
+	}
+
+	private static void instants() {
+		var now = Instant.now();
+		// do something time consuming
+		var later = Instant.now();
+
+		var duration = Duration.between(now, later);
+		System.out.println(duration.toMillis());  // Returns number milliseconds
+
+		var date = LocalDate.of(2022, 5, 25);
+		var time = LocalTime.of(11, 55, 00);
+		var zone = ZoneId.of("US/Eastern");
+		var zonedDateTime = ZonedDateTime.of(date, time, zone);
+		var instant = zonedDateTime.toInstant(); // 2022–05–25T15:55:00Z
+		System.out.println(zonedDateTime); // 2022–05–25T11:55–04:00[US/Eastern]
+		System.out.println(instant); // 202–05–25T15:55:00Z
+	}
+
+	private static void periodVsDuration() {
+		var date = LocalDate.of(2022, 5, 25);
+		var period = Period.ofDays(1);
+		var days = Duration.ofDays(1);
+
+		System.out.println(date.plus(period));   // 2022–05–26
+		//		System.out.println(date.plus(days));     // Unsupported unit: Seconds
+	}
+
+	private static void durationWithCrono() {
+		var daily = Duration.of(1, ChronoUnit.DAYS);
+		var hourly = Duration.of(1, ChronoUnit.HOURS);
+		var everyMinute = Duration.of(1, ChronoUnit.MINUTES);
+		var everyTenSeconds = Duration.of(10, ChronoUnit.SECONDS);
+		var everyMilli = Duration.of(1, ChronoUnit.MILLIS);
+		var everyNano = Duration.of(1, ChronoUnit.NANOS);
 	}
 
 	private static void calculatingWithMathAPIs() {

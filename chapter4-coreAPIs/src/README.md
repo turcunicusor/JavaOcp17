@@ -62,32 +62,37 @@ String class is immutable class. This means calling a method on a String will re
 
 ![img_15.png](img_15.png)
 
-
 #### Working with Durations
+
+![img_16.png](img_16.png)
+
+#### Daylight saving time
+
+![img_17.png](img_17.png)
 
 ## Review questions
 
 Question | My Answer | Correct Answer
 ---------|-----------|---------------
-1        |           |                
-2        |           |                
-3        |           |                
-4        |           |                
-5        |           |                
-6        |           |                
-7        |           |                
-8        |           |                
-9        |           |                
-10       |           |                
-11       |           |                
-12       |           |                
-13       |           |                
-14       |           |                
-15       |           |                
-16       |           |                
-17       |           |                
-18       |           |                
-19       |           |                
-20       |           |                
-21       |           |                
-            
+1        | a, c      | f               
+2        | c, e      | c,e,f             
+3        | a, c, d, f | a, c, d               
+4        | a, c, d   |                
+5        | b         |                 abbaccca
+6        | c         |                
+7        | a, d      | a, e               
+8        | a, b, e, f | a, b, f                
+9        | a, c, e   | a, c, f               
+10       | a         |                
+11       | f         |                
+12       | a, d, e   |                
+13       | b         |                
+14       | a, f      |                
+15       | c, e      |                
+16       | a,b,c     |  length = 11, indent = 16, indent  = 10               
+17       | a, g      |                
+18       | c, e, f   |                
+19       | a, b, d   |                
+20       | a, d      |                
+21       | a, c      |
+22       | e         | a                           

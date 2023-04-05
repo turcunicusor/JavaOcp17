@@ -1,10 +1,21 @@
-# TBD
+# Methods
 
-## TBD
+## Declaring local and instance variables
 
 TBD
 
 #### TBD
+
+## Working with varaargs
+
+## Applying Access Modifiers
+
+## Acessing static Data
+
+## Passing data among Methods
+
+## Overloading Methods
+
 
 Question | My Answer | Correct Answer
 ---------|-----------|---------------
