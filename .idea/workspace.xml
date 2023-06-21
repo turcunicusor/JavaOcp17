@@ -2,19 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca25f877-cb51-4a59-a234-cb874901d65d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter6-classdesign/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter6-classdesign/src/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter6-classdesign/src/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter6-classdesign/src/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter6-classdesign/src/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter6-classdesign/src/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter6-classdesign/src/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter6-classdesign/src/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter6-classdesign/src/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter6-classdesign/src/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter6-classdesign/src/img_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter7-beyondclasses/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter7-beyondclasses/src/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter7-beyondclasses/src/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter7-beyondclasses/src/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter7-beyondclasses/src/img_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter7-beyondclasses/src/img_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter7-beyondclasses/src/img_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter7-beyondclasses/src/img_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter7-beyondclasses/src/img_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter7-beyondclasses/src/img_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter7-beyondclasses/src/img_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter7-beyondclasses/src/img_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter7-beyondclasses/src/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter7-beyondclasses/src/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter7-beyondclasses/src/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter7-beyondclasses/src/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter7-beyondclasses/src/img_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter7-beyondclasses/src/img_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter7-beyondclasses/src/img_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter7-beyondclasses/src/img_9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5-methods/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5-methods/src/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,31 +61,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TF_FMT&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/nicusor.turcu@mambu.com/playground/JavaOcp17/chapter6-classdesign/src&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.36666667&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TF_FMT": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "temurin-17",
+    "last_opened_file_path": "/Users/nicusor.turcu@mambu.com/playground/JavaOcp17/chapter7-beyondclasses/src",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.36666667",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chapter7-beyondclasses/src" />
       <recent name="$PROJECT_DIR$/chapter6-classdesign/src" />
       <recent name="$PROJECT_DIR$/chapter5-methods/src" />
       <recent name="$PROJECT_DIR$/chapter5-methods" />
       <recent name="$PROJECT_DIR$/chapter4-coreAPIs/src" />
-      <recent name="$PROJECT_DIR$/templatechapter/src" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main (3)">
@@ -153,6 +161,7 @@
       <workItem from="1680877641199" duration="1031000" />
       <workItem from="1684673881556" duration="4865000" />
       <workItem from="1685274827454" duration="306000" />
+      <workItem from="1686894515329" duration="7103000" />
     </task>
     <task id="LOCAL-00001" summary="31 August, chapter 1.">
       <created>1661930458786</created>
@@ -231,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680716516778</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Chapter 6, done">
+      <created>1686894584411</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686894584411</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,6 +283,7 @@
     <MESSAGE value="Adding almost all chapter 4. left at - Working with Durations" />
     <MESSAGE value="Starting chapter 5" />
     <MESSAGE value="Chapter 5, left at: Class vs. Instance Membership" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 5, left at: Class vs. Instance Membership" />
+    <MESSAGE value="Chapter 6, done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 6, done" />
   </component>
 </project>
