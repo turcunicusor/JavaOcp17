@@ -45,11 +45,25 @@ An interface is an abstract data type that declares a list of abstract methods t
 
 ![img_17.png](img_17.png)
 
-
+![img_18.png](img_18.png)
 
 ## Creating nested classes
 
+![img_19.png](img_19.png)
+
+![img_20.png](img_20.png)
+
+![img_21.png](img_21.png)
+
+![img_22.png](img_22.png)
+
+![img_23.png](img_23.png)
+
+![img_24.png](img_24.png)
+
 ## Understanding Polymorphism
+
+![img_25.png](img_25.png)
 
 
 Question | My Answer | Correct Answer
