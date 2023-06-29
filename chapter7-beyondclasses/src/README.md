@@ -65,6 +65,11 @@ An interface is an abstract data type that declares a list of abstract methods t
 
 ![img_25.png](img_25.png)
 
+![img_26.png](img_26.png)
+
+![img_27.png](img_27.png)
+
+
 
 Question | My Answer | Correct Answer
 ---------|-----------|---------------
